@@ -1,0 +1,32 @@
+#home{
+    background-image:url("http://www.remotepartners.com/wp-content/uploads/2014/10/overview-osbp-300x214.jpg");
+    background-color:rgb(148,252,242);
+    Background-repeat:repeat;
+    background-size:cover;
+}
+  table,th,td,tr{
+      padding: 5px;
+      background-color: grey;
+      font-size:27px;
+      justify-content:space-between;
+      font-family:times new roman;
+}h2{
+    justify-content:center;
+    font-size:24;
+    left:15px;
+    text-transform:uppercase;
+    color:SpringGreen;
+}p{
+   font-family:bold;
+   margin:10;
+}
+footer{
+    font-style:italic;
+    position:absolute;
+    bottom:-3px;
+    left:-3px;
+    color:blue;
+    text-transform:uppercase;
+    font-size:30px;
+    justify-content:center;
+}

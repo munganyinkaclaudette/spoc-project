@@ -1,0 +1,88 @@
+@media only screen and (min-width:400px){
+body{
+   background-repeat:no-repeat;
+   background-size:contain; 
+   background-color:rgb(148,252,242); 
+   
+}}
+h1{
+   margin-top: 0;
+	 padding-top: 0;
+	 background-color:pink;
+	 border:1px solid gray;
+	 text-transform:uppercase;
+   font-size:50px;
+   font-weight:600;
+}
+footer{
+    font-style:italic;
+    position:absolute;
+    bottom:-3px;
+    left:-3px;
+    color:blue;
+    text-transform:uppercase;
+    font-size:30px;
+    justify-content:center;
+}
+nav>ul>li>a {
+padding: 18px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display:block;
+color: rgba(255, 255, 255, 0.733);
+}
+nav>ul>li {
+    display: inline-block;
+}
+nav>ul{
+ text-align:right; }
+nav>ul>li>a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+background: rgba(221, 109, 35, 0.678);
+color: rgba(0, 35, 122, 0.7);}
+/* about aactivities*/
+.container>activities>table,th,td,tr{
+          padding: 5px;
+          background-color: yellow;
+          border-collapse: collapse;
+          border: 2px solid black;
+          font-size:24;
+          margin:10px;
+}
+.container>activities>table,th{
+        text-transform:uppercase;
+}
+h4{   text-transform:uppercase;
+      font-size:24;}
+.column{
+    column-count:3;
+    padding:1px;
+    text-align:justify;
+}
+p{
+      font-size:16; 
+}
+/* about more information*/
+.container>more,h5,h7{
+      font-size:24;
+      font-family:times new roman;
+      text-decoration:underline; 
+      padding:2px;
+      text-align: center;
+      margin:10px;
+ }
+  #more>h6,h7{
+        text-align:left;
+        font-size:24;
+  }
+  /* about images*/
+#images{
+        flex-wrap:wrap-reverse;
+        flex-direction:row;
+        background-position:right bottom;
+        Background-repeat:no-repeat;
+        text-align:right;
+        height:400px;
+        width:600px;
+  }
